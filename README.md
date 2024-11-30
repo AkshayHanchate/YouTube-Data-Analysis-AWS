@@ -51,18 +51,5 @@ The data pipeline is designed with the following components:
 ### Monitoring and Alerts
 - **AWS CloudWatch**: Used for monitoring and alerting across the pipeline to ensure data integrity and process efficiency.
 
-## Getting Started
-
-### Prerequisites
-- **AWS Account**: An AWS account with access to services such as S3, Glue, Lambda, and Athena.
-- **AWS CLI**: Command-line interface to interact with AWS services.
-- **Python**: Used for writing Lambda functions and processing scripts.
-
-### Set Up AWS Services
-
-Create S3 buckets for storing raw and processed data.
-Configure AWS Glue Crawler to catalog the data in S3.
-Set up AWS Lambda functions for any additional processing tasks.
-Upload Data
 
 
